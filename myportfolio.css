@@ -1,0 +1,465 @@
+
+body{
+	width:100%;
+	background-color:#3D3D3D ;
+	font-family: sans-serif;
+	margin: 0;
+
+
+
+}
+#one{
+	position:relative;
+	width: 100%;
+	height: 500px;
+	background-image: url(homeoffice.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: ;
+	background-size: cover;
+
+}
+
+
+span{
+	position:absolute;
+	margin: 10px;
+	padding: 0px;
+	font-size: 30px;
+
+}
+.container{
+	left: 50%;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+nav{
+
+	background: white;
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	border-radius: 22px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
+}
+nav > a {
+	color: black;
+	text-decoration: none;
+	padding: 8px 16px;
+	border-radius: 22px;
+}
+ nav > a:hover{
+ 	transition: 0.25s;
+ 	background: rgb(56, 130, 209);
+ 	color:white;
+ 	border-radius: 22px;
+ }
+ .container2{
+ 	left: 35%;
+ 	margin-top: 30px;
+ 	width: 400px;
+ 	height: 400px;
+ 	justify-content: center;
+    align-items: center; 
+    position: absolute;
+    backdrop-filter: blur;
+
+ }
+.container2 h1{
+	margin-top: 160px;
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+}
+ p{
+	text-align: center;
+	color: #fff;
+}
+.container1{
+	left: 30%;
+	justify-content:center;
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 20px;
+	box-sizing: border-box;
+    box-shadow:2px 2px 20px rgba(0,0,0,0.3) ;
+    background-color:rgba(0, 0, 0, 0.1);
+
+}
+img{
+	margin: 10px;
+    width: 300px;
+    height: 300px;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+    position: relative;
+    left: 20%;
+	}
+	.container1 h2{
+		text-align: center;
+	    color: white;
+	}
+	.container1 p{
+		padding: 30px;
+		font-size: 15px;
+	}
+	.what-i-do{
+		left: 41%;
+		top: 200%;
+		width: 300px;
+		height: 100px;
+		justify-content: center;
+		text-align: center;
+		margin: 10px;
+		color: #fff;
+		background-color:none;
+		position: absolute;
+	}
+	.what-i-do h1{
+		color: blueviolet;
+		text-shadow:2px 2px 20px rgba(0,0,0,0.3);
+	}
+	.container3{
+		margin: 0px;
+		width: 500px;
+		height: 300px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		left: 30%;
+		top: 220%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		border-radius: 20px;
+		color: #fff;
+	} 
+	.container3 img{
+		float: left;
+		width: 250px;
+		height: 100px;
+		left: 0%;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+    .container3 h2{
+    	text-align: center;
+    	justify-content: center;
+    	margin: 10px;
+    	font-size: 20px;
+    	padding: 40px;
+    	position: absolute;
+    	margin-left:80px;
+    
+    }
+    .container3 p{
+
+    	justify-content: center;
+    	position: relative;
+    	margin-top: 150px;
+    	padding: 10px;
+    	margin-right:70px;
+     }
+     .container4{
+		margin: 0px;
+		width: 500px;
+		height: 300px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		left: 30%;
+		top: 300%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		border-radius: 20px;
+		color: #fff;
+	} 
+	.container4 img{
+		float: left;
+		width: 250px;
+		height: 100px;
+		left: 0%;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+    .container4 h2{
+    	text-align: center;
+    	justify-content: center;
+    	margin: 10px;
+    	font-size: 20px;
+    	padding: 40px;
+    	position: absolute;
+    	margin-left:80px;
+    
+    }
+    .container4 p{
+
+    	justify-content: center;
+    	position: relative;
+    	margin-top: 150px;
+    	padding: 10px;
+    	margin-right:70px;
+     }
+    .portfolio{
+
+		margin: 0px;
+		position: absolute;
+		top: 360%;
+		left: 41%;
+		width: 300px;
+		height: 100px;
+		justify-content: center;
+		text-align: center;
+		margin: 10px;
+		color: #fff;
+		background-color:none;
+		position: absolute;
+
+    }
+    .portfolio h1{
+		color: blueviolet;
+		text-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		}
+   
+       .portfolio1{
+
+		margin: 0px;
+		width: 500px;
+		height: 320px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		left: 30%;
+		top: 380%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		border-radius: 20px;
+		color: #fff;
+
+    }
+      .portfolio1 img{
+		width: 400px;
+		height:200px;
+		border-radius:10px;
+		margin-top: 20px;
+		position: absolute;
+		justify-content: center;
+		align-items: center;
+		float: left;
+		left: 08%;
+
+    }
+      .portfolio1 p{
+    	text-align: center;
+    	justify-content: center;
+    	margin-top:200px;
+    	font-size: 15px;
+    	padding: 40px;
+    	position: absolute;
+    	
+    
+    }
+
+   .portfolio1 a{
+   		justify-content: center;
+    	position: absolute;
+    	padding: 5px;
+    	border-radius: 20px;
+    	background-color:#fff ;
+    	margin-top: 270px;
+      color: black;
+ 
+   }
+   .portfolio1 a:hover{
+   	transition: 0.25s;
+   	background-color:rgb(56, 130, 209) ;
+   	color: #fff;
+   }
+
+       .portfolio2{
+
+		margin: 0px;
+		width: 500px;
+		height: 320px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		left: 30%;
+		top: 450%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		border-radius: 20px;
+		color: #fff;
+
+    }
+      .portfolio2 img{
+		width: 400px;
+		height:200px;
+		border-radius:10px;
+		margin-top: 20px;
+		position: absolute;
+		justify-content: center;
+		align-items: center;
+		float: left;
+		left: 08%;
+
+    }
+      .portfolio2 p{
+    	text-align: center;
+    	justify-content: center;
+    	margin-top:200px;
+    	font-size: 15px;
+    	padding: 40px;
+    	position: absolute;
+    	
+    
+    }
+
+   .portfolio2 a{
+   		justify-content: center;
+    	position: absolute;
+    	padding: 5px;
+    	border-radius: 20px;
+    	background-color:#fff ;
+    	margin-top: 270px;
+      color: black;
+
+ 
+   }
+   .portfolio2 a:hover{
+   	transition: 0.25s;
+   	color: #fff;
+   	background:rgb(56, 130, 209);
+    border-radius: 22px;
+ 	cursor: hover; ;
+   }
+
+       .portfolio3{
+
+		margin: 0px;
+		width: 500px;
+		height: 150px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		left: 30%;
+		top: 510%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		border-radius: 20px;
+		color: #fff;
+
+    }
+   
+      .portfolio3 p{
+    	text-align: center;
+    	justify-content: center;
+    	margin-top:10px;
+    	font-size: 15px;
+    	padding: 40px;
+    	position: absolute;
+    	
+    
+    }
+
+   .portfolio3 a{
+   		justify-content: center;
+    	position: absolute;
+    	padding: 5px;
+    	border-radius: 20px;
+    	background-color:#fff ;
+    	margin-top: 80px;
+    	color: black;
+ 
+   }
+   .portfolio3 a:hover{
+   	transition: 0.25s;
+ 	background: rgb(56, 130, 209);
+ 	color:white;
+ 	border-radius: 22px;
+ 	cursor: hover;
+   }
+   .but{
+    	margin: 0px;
+		height: px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		top: 520%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+		color: #fff;
+		border-radius: 30px;
+   }
+ 
+   .foot{
+    	margin: 0px;
+		width:150%;
+		height: 80px;
+		background-color:rgba(0, 0, 0, 0.4);
+		position: absolute;
+		left:%;
+		top: 540%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+	
+   }
+   .foot h3{
+   	    text-align: center;
+    	justify-content: center;
+    	font-size: 15px;
+    	padding: 10px;
+    	left: 1%;
+    	display: flex;
+    	position: absolute;
+    	
+   }
+   .foot p{
+   	    text-align: center;
+    	justify-content: center;
+    	margin-top:20px;
+    	font-size: 15px;
+    	padding: 30px;
+    	position: absolute;
+    	left: 25%;
+   }
+      .foot a{
+  
+    color: black;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 22px;
+	background-color: #fff;
+	font-size: 12px;
+	position: absolute;
+	left: 900px;
+	top: 30px;
+
+   }
+   .foot a:hover{
+   	transition: 0.25s;
+ 	background: rgb(56, 130, 209);
+ 	color:white;
+ 	border-radius: 22px;
+   }

@@ -1,0 +1,65 @@
+body{
+	background-color: #3D3D3D;
+	font: italics;
+	text-align: center;
+
+}
+.bttn a{
+	width: 90px;
+	border-radius: 20px;
+	padding: 05px;
+	background-color: #fff;
+	position: absolute;
+	left:5%;
+	color: black;
+}
+.btnn a:hover{
+	transform: 0.25s;
+	background-color:rgb(56, 130, 209)
+	color: #fff;
+}
+.container{
+	top: 50%;
+	left: 50%;
+	justify-content: center;
+	position:absolute;
+	background-color: #fff;
+	align-items: center;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+
+}
+.scope{
+	width: 200px;
+	border-radius: 1px;
+	padding: 5px;
+	text-align: center;
+	margin: 5px;
+}
+.btn1{
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: blueviolet;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.btn2{
+	width: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: red;
+	color: #fff;
+	cursor: pointer;
+	
+
+}
+
+
